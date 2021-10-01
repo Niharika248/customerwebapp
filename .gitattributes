@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+@Tag("payment-item")
+@JsModule("@payment-item/payment-item.js")
+public class PaymentItem extends Component {
+  public PaymentItem() {
+  }
+}
+
+public class MyComponent extends Composite<Div> {
+  // --
+}
+
